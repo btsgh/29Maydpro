@@ -1,6 +1,18 @@
 {
   "pages": [
     {
+      "id": "Schedule",
+      "isDefault": false
+    },
+    {
+      "id": "New vehicle",
+      "isDefault": false
+    },
+    {
+      "id": "Home page",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
       "isDefault": true
     }
@@ -16,7 +28,11 @@
   },
   "color": "#FFDEDE",
   "icon": "website",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
